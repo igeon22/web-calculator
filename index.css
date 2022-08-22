@@ -1,0 +1,89 @@
+*{
+	font-family: Calibri;
+	background-color: rgb(82, 70, 70);
+}
+
+h1
+{
+	font-style: italic;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: underline;
+}
+
+.calculator-container{
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 300px;
+	height: 375px;
+	
+	display: grid;
+	grid-template-rows: repeat(3,25%);
+	grid-template-columns: repeat(4,25%) ;
+	grid-template-areas: "1 2 3 "
+						 "4 5 6"
+						 "7 8 9";
+						 
+	box-shadow: 3px 3px 3px rgb(43, 26, 61);
+}
+
+
+
+#box{
+	text-align: right;
+	background-color: rgb(216, 105, 148);
+	font-style: italic;
+	color: rgb(255, 255, 255);
+	margin-right: 5px;
+	text-shadow: 3px 3px 3px black;
+	font-size: 2em;
+}
+
+.label{
+	margin-left: auto;
+	margin-right: auto;
+	width: 294px;
+	height: 86px;
+	margin-top: 30px;
+
+	border: 3px solid whitesmoke;
+	
+	box-shadow: 3px 3px 3px rgb(61, 26, 53);
+	background-color: rgb(216, 105, 148);
+	
+}
+
+.button,.btn-nd{
+
+	color: rgb(0, 0, 0);
+	background-color: rebeccapurple;
+	border: 0pc solid transparent;
+	font-size: 1.5em;
+}
+
+.button:hover,.btn-nd:hover{
+	transition: 1s ease;
+	background-color: white;
+	color: rebeccapurple;
+}
+
+.end{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+
+.en:hover
+{
+	color: rgb(0, 0, 0);
+	background-color: rebeccapurple;
+	border: 0pc solid transparent;
+	font-size: 1.5em;
+
+}
+
+
